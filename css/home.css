@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 40px;
+    margin: 1.5rem;
+}
+
+header .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header .menu1 {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+a {
+    color: black;   
+    transition: 0.3s;
+}
+a:hover {
+    color: rgb(0, 102, 255);
+    font-size: 1.2rem;
+}
+
